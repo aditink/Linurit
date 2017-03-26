@@ -26,7 +26,13 @@ This is the section that describes the actual game where you manipulate the cons
 To drag a node, one must first select it by tapping on it
 Then they can move it by dragging their finger in whatever direction they wish to put it
 Even if they didn't drag starting at the node's location, the node will still move the correct distance and direction
-(I still need to finish this section)
+There should be a reset button in order to bring the constellation back to how it looked at the start.
+There should also be an undo button that possibly deducts points
+Most importantly, there should be a play button that starts the simulation of bursting each node in proper order
+	SIMULATION: For the simulation, there will be a clearly marked starting node at which the simulation begins. For later levels, there may be more than one for an added level of complexity. Each small segment along the dotted line to the next node will light up to indicate progress along the line. I will add a gif called burst-progress.gif to show what I mean.
+	While a node that is connected to two or more nodes will show progress along both lines, the progress will stop along the other lines once one of the nodes is reached. 
+	WIN CONDITION: In order to win, the simulation must progress in such a way that all nodes are reached, but only reached once. 
+
 
 
 PLAY button:
