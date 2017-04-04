@@ -11,6 +11,9 @@ Instead, what we can do is keep a reward system that is not based on the speed a
 one solves each puzzle, but instead based on some other unit of efficiency.
 Without time, it may be a bit difficult to decide upon what that unit might be.
 I'm thinking perhaps taking the minimum number of moves, but we can decide upon it at a later date
+(comment: Actually, I think any hamiltonian path is going to require exactly as many hits as number of nodes: unless you mean number of moves to manipulate the graph itself.
+Personally, I think time is a good idea; we wont have a hard deadline with a ticking clock or anything, but time would be an extremely useful parameter for scoring.
+That said, feel free to add ideas if something occurs to you. -Aditi)
 
 START MENU:
 The first thing that someone will see upon opening the app is the start menu.

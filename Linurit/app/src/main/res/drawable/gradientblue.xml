@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+        <gradient
+            android:type="radial"
+            android:startColor="#303060"
+            android:centerY="0.8"
+           android:endColor="#000020"
+            android:gradientRadius="100%"
+            />
+    <!--play around with color. find way to make radius depend on screen dimension for lower than lollipop-->
+        <corners android:radius="0dp" />
+</shape>
