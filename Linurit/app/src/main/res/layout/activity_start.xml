@@ -4,4 +4,17 @@
     android:layout_height="match_parent"
     android:background="@drawable/gradientblue"
     >
+
+    <!--ought to modify size programmatically dependent on screen-->
+
+    <TextView
+        android:text="Linurit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Title"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    />
+
 </LinearLayout>

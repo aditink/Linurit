@@ -18,7 +18,6 @@ Here's what I've been thinking so far:
     
     Also: If the math is too complicated/computationally intensive in some parts, we can just use AnimationDrawable in an xml for most of the effects: 
     https://developer.android.com/reference/android/graphics/drawable/AnimationDrawable.html
-    Also useful for drawing node backlighting: https://developer.android.com/reference/android/media/effect/EffectFactory.html#EFFECT_FILLLIGHT
     This way we wont have to worry about modifying the gradient
     
      That's what I've been thinking so far. Feel free to format this file: making things look pretty has never been my thing.
