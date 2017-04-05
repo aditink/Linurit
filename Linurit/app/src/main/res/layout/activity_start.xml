@@ -1,20 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_start"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradientblue"
+    android:orientation="vertical"
     >
-
-    <!--ought to modify size programmatically dependent on screen-->
 
     <TextView
         android:text="Linurit"
+        android:textColor="#ffffff"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/Title"
         android:gravity="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+        android:textAllCaps="false"
+        />
+<!--android:background="@drawable/gradientwhitelight" to get a small white spherical gradient in background-->
 
-    />
+    <!--to create gap between title and buttons -->
+    <TextView
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/placeHolder"
+        />
+
+    <Button
+        android:text="Play"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:onClick="play"
+        android:background="#00000000"
+        android:id="@+id/button_play" />
+
+    <Button
+        android:text="Levels"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="levels"
+        android:background="#00000000"
+        android:id="@+id/button_levels" />
+
+    <Button
+        android:text="Themes"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="themes"
+        android:background="#00000000"
+        android:id="@+id/button_themes" />
 
 </LinearLayout>
